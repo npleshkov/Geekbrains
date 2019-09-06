@@ -1,0 +1,9 @@
+Hello world!
+Some data
+
+file = open(data/read.txt)
+print(file.readline())
+file.close()
+
+Some5 Data
+Some6 Data
