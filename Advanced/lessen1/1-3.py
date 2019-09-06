@@ -1,14 +1,8 @@
-st = ('разработка', 'сокет', 'декоратор')
+st = ('разработка', 'сокет', 'декоратор', 'function', 'method')
 
-# b'разработка'
-# b'сокет'
-print(type(b'test'))
-
-# for i in st:
-#
-#     # print(f' Тип {type(b'i')},  длина строки {len(i)}')
-#     if 'Some string' == b''i'':
-#         print('1')
-#     else:
-#         print(2)
+for i in st:
+    u = bytes(i, encoding='utf-8')
+    # l = bytes(i, encoding='latin-1')
+    print(u.decode())
+    # print(l.decode())
 

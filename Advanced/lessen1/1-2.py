@@ -1,8 +1,8 @@
 st = ('разработка', 'сокет', 'декоратор')
 
-# b'разработка'
-# b'сокет'
-print(type(b'test'))
+for i in st:
+    t = bytes(i, encoding='utf-8')
+    print(t.decode())
 
 # for i in st:
 #
@@ -12,4 +12,3 @@ print(type(b'test'))
 #     else:
 #         print(2)
 #
-
