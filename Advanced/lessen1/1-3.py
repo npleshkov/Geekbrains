@@ -6,3 +6,5 @@ for i in st:
     print(u.decode())
     # print(l.decode())
 
+    
+    
