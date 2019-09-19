@@ -1,5 +1,5 @@
 INSTALLED_APPS = [
     'echo',
-    'servertime'
-    'servererrors'
+    'servertime',
+    'servererrors',
 ]

@@ -1,5 +1,5 @@
-from .controllers import error_controller
+from .controllers import errors_controllers
 
 actionmapping = [
-    {'action': 'error', 'controller': error_controller}
+    {'action': 'error', 'controller': errors_controllers}
 ]
