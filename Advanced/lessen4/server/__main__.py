@@ -9,7 +9,7 @@ from protocol import vilidate_request, make_200, make_400, make_404, make_500
 def vilidate_request(request):
     return 'action' in request and 'time' in request and request.get('action') and request.get('time')
 
-config_file = './conf/config.yml'
+config_file = 'conf/config.yml'
 
 
 def config_request():

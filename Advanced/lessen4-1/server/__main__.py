@@ -3,7 +3,7 @@ import yaml
 import json
 from argparse import ArgumentParser
 from protocol import vilidate_request, make_200, make_400, make_404, make_500
-from resolvers import  find_server_action
+from resolvers import find_server_action
 
 config_file = 'conf/config.yml'
 
