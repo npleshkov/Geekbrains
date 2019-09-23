@@ -5,7 +5,7 @@ import json
 from argparse import ArgumentParser
 from datetime import datetime
 
-CONFIG_FILE = 'conf/config.yml'
+config_file = 'conf/config.yml'
 
 
 def make_request(action, text, date=datetime.now()):
@@ -17,7 +17,7 @@ def make_request(action, text, date=datetime.now()):
 
 
 def config_request():
-    with open(CONFIG_FILE) as file:
+    with open(config_file) as file:
         config = yaml.safe_load(file)
     return config
 

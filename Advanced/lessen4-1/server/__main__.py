@@ -2,12 +2,8 @@ import socket
 import yaml
 import json
 from argparse import ArgumentParser
-from datetime import datetime
 from protocol import vilidate_request, make_200, make_400, make_404, make_500
-
-
-def vilidate_request(request):
-    return 'action' in request and 'time' in request and request.get('action') and request.get('time')
+from resolvers import find_server_action
 
 config_file = 'conf/config.yml'
 
@@ -17,13 +13,6 @@ def config_request():
         config = yaml.safe_load(file)
     return config
 
-def make_response(request, code, data=None, date=datetime.now()):
-    return {
-        'action': request.get('action'),
-        'time': date.timestamp(),
-        'code': code,
-        'data': data
-    }
 
 def config_rewrite(port):
     with open(config_file) as file_r:
@@ -73,7 +62,7 @@ try:
             sock.bind((host, port))
     sock.listen(5)
     print(f'Server started with {host}:{port}')
-
+    action_mapping = find_server_action()
     while True:
         client, (client_host, client_port) = sock.accept()
         print(f'Client {client_host}:{client_port} was connected')
@@ -83,30 +72,22 @@ try:
 
         if vilidate_request(request):
             action = request.get('action')
-            if action == 'echo':
+            controller = action_mapping.get(action)
+            if controller:
                 try:
-                    response = make_200(request, request.get('data'))
+                    response = controller(request)
                     print(f'Request: {bytes_request.decode()}')
                 except Exception as er:
                     response = make_500(request)
                     print(er)
-
-            try:
-                print(f'Request: {bytes_request.decode()}')
-                # client.send(bytes_request)
-                response = make_200(request, 200, request.get('data'))
-                # client.send({'action': request.get("action"), 'code': 200, 'data': request.get('data')})
-            except Exception as err:
-                request = make_500(request)
-                print(err)
+            else:
+                response = make_404(request)
         else:
-            response = make_400(request, 400, 'Request is not valide')
+            response = make_404(request, request.get('data'))
             print(f'Wrong request: {request}')
-            # client.send({'action' :request.get("action"), 'code': 400, 'data': request.get('data')})
-        # print(f'Request: {bytes_request.decode()}')
-        # client.send(bytes_request)
         string_response = json.dumps(response)
         client.send(string_response.encode())
         client.close()
+
 except KeyboardInterrupt:
-    print('Server shotdown')
+    print('Server shutdown')

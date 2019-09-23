@@ -8,10 +8,10 @@ def find_server_action():
         INSTALLED_APPS, []
     )
     routes = reduce(
-        lambda value, item: value + [getattr(item, 'routes', None)],
+        lambda value, item: value + [getattr(item,'routes', None)],
         application, []
     )
-    mapping = reduce(
+    mapping =  reduce(
         lambda value, item: value + getattr(item, 'actionmapping', []),
         routes, []
     )

@@ -6,3 +6,5 @@ for i in st:
     bytes_data_u = data.encode('utf-8')
     print('bytes_data_u type ', type(bytes_data_u))
     print(bytes_data_u.decode('utf-8'))
+
+
