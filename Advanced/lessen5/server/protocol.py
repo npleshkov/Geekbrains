@@ -9,6 +9,7 @@ def config_request():
         config = yaml.safe_load(file)
     return config
 
+
 def config_rewrite(port):
     with open(CONFIG_FILE) as file_r:
         config = yaml.safe_load(file_r)

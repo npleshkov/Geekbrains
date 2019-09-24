@@ -4,3 +4,4 @@ chardet
 pyyaml
 pytest
 pytest-cov
+pyjwt
