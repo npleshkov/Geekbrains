@@ -2,16 +2,23 @@ import socket
 import yaml
 import json
 import logging
+import jwt
 from argparse import ArgumentParser
 
 from resolvers import find_server_action
-from protocol import  validate_request, make_200, make_400,\
-    make_404, make_500, config_request, config_rewrite
-
-
+from protocol import validate_request, make_404, make_500, \
+    config_request, config_rewrite
 
 config = config_request()
 parser = ArgumentParser()
+
+# header = { "alg": "HS256", "typ": "JWT"}
+# payload = {'userId': 'b08f86af-35da-48f2-8fab-cef3904660bd'}
+# encoded = jwt.encode(payload, 'secret', algorithm='HS256')
+# # print(encoded)
+
+# print(jwt.decode(encoded, 'secret', algorithms=['HS256']))
+
 parser.add_argument('-c', '--config', type=str, required=False,
                     help='Sets config path')
 parser.add_argument('-ht', '--host', type=str, required=False,
@@ -44,19 +51,21 @@ try:
     try:
         sock.bind((host, port))
     except OSError as e:
+        print(e.errno)
         if e.errno == 98:
             if port == 8008:
                 port = 3000
-                print(f'Текущий порт занят, выбран порт {port}')
+                logging.debug(f'Текущий порт занят, выбран порт {port}')
             elif port == 3000:
                 port = 8008
-                print(f'Текущий порт занят, выбран порт {port}')
+                logging.debug(f'Текущий порт занят, выбран порт {port}')
             else:
-                print(f'Зарезервериванные порты 8008 и 3000 заняты. Остановите ранее запущенные серверы')
+                logging.error(f'Зарезервериванные порты 8008 и 3000 заняты.\
+                        Остановите ранее запущенные серверы')
             config_rewrite(port)
             sock.bind((host, port))
     sock.listen(5)
-    print(f'Server started with {host}:{port}')
+    logging.info(f'Server started with {host}:{port}')
     action_mapping = find_server_action()
 
     while True:
@@ -66,24 +75,32 @@ try:
         bytes_request = client.recv(buffersize)
         request = json.loads(bytes_request)
 
-        if validate_request(request):
-            action = request.get('action')
-            controller = action_mapping.get(action)
-            if controller:
-                try:
-                    response = controller(request)
-                    logging.debug(f'Request: {bytes_request.decode()}')
-                except Exception as er:
-                    response = make_500(request)
-                    logging.critical(er)
+        try:
+            jwt.decode(request.get('token'), 'secret', algorithms=['HS256'])
+            if validate_request(request):
+                action = request.get('action')
+                controller = action_mapping.get(action)
+                if controller:
+                    try:
+                        response = controller(request)
+                        logging.debug(f'Request: {bytes_request.decode()}')
+                    except Exception as er:
+                        response = make_500(request)
+                        logging.critical(er)
+                else:
+                    response = make_404(request)
+                    logging.error(f'Wrong request: {request} not found')
             else:
-                response = make_404(request)
+                response = make_404(request, 'Request is not valid')
                 logging.error(f'Wrong request: {request} not found')
-        else:
-            response = make_404(request, 'Request is not valid')
-            logging.error(f'Wrong request: {request} not found')
-        string_response = json.dumps(response)
-        client.send(string_response.encode())
+            string_response = json.dumps(response)
+            client.send(string_response.encode())
+
+        except jwt.exceptions.InvalidSignatureError:
+            logging.error(f'Wrong token: {request.get("token")} not found')
+            string_response = json.dumps('token error')
+            client.send(string_response.encode())
+
         client.close()
 except KeyboardInterrupt:
     logging.info('Server shotdown')

@@ -8,10 +8,11 @@ from datetime import datetime
 CONFIG_FILE = 'conf/config.yml'
 
 
-def make_request(action, text, date=datetime.now()):
+def make_request(action, text, token_id, date=datetime.now()):
     return {
         'action': action,
         'data': text,
+        'token': token_id,
         'time': date.timestamp()
     }
 
@@ -21,6 +22,8 @@ def config_request():
         config = yaml.safe_load(file)
     return config
 
+def make_request_token():
+    pass
 
 if __name__ == '__main__':
 
@@ -47,9 +50,16 @@ if __name__ == '__main__':
     sock = socket.socket()
     sock.connect((host, port))
 
+    # login = input('Enter login: ')
+    # password = input('Enter password: ')
+    token_id = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U1'
+    # request_token = make_request_token(token)
+
+
+
     action = input('Enter action name: ')
     message = input('Enter your message: ')
-    request = make_request(action, message)
+    request = make_request(action, message, token_id)
     string_request = json.dumps(request)
 
     sock.send(string_request.encode())

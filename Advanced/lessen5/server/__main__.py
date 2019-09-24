@@ -4,9 +4,8 @@ import json
 from argparse import ArgumentParser
 from datetime import datetime
 from resolvers import find_server_action
-from protocol import  vilidate_request, make_200, make_400,\
+from protocol import vilidate_request, make_200, make_400, \
     make_404, make_500, config_request, config_rewrite
-
 
 if __name__ == '__main__':
 
@@ -42,7 +41,8 @@ try:
                 port = 8008
                 print(f'Текущий порт занят, выбран порт {port}')
             else:
-                print(f'Зарезервериванные порты 8008 и 3000 заняты. Остановите ранее запущенные серверы')
+                print(
+                    f'Зарезервериванные порты 8008 и 3000 заняты. Остановите запущенные серверы')
             config_rewrite(port)
             sock.bind((host, port))
     sock.listen(5)
