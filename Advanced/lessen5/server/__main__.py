@@ -7,6 +7,7 @@ from resolvers import find_server_action
 from protocol import  vilidate_request, make_200, make_400,\
     make_404, make_500, config_request, config_rewrite
 
+import logging
 
 if __name__ == '__main__':
 
@@ -29,6 +30,22 @@ if __name__ == '__main__':
     host = args.host if args.config else config.get('host')
     port = args.port if args.config else config.get('port')
     buffersize = config.get('buffersize')
+
+    logger = logging.getLogger('main')
+    logger.setLevel(logging.DEBUG)
+
+    formatter =logging.Formatter('%(asctime)s - %(levelname)s -%(message)s')
+
+    file_handler = logging.FileHandler('server.log')
+    file_handler.setFormatter(formatter)
+    file_handler.setLevel(logging.DEBUG)
+    stream_handler = logging.StreamHandler()
+    stream_handler.setFormatter(formatter)
+    stream_handler.setLevel(logging.DEBUG)
+    logger.addHandler(file_handler)
+    logger.addHandler(logging.StreamHandler())
+
+
 try:
     sock = socket.socket()
     try:
@@ -51,7 +68,7 @@ try:
 
     while True:
         client, (client_host, client_port) = sock.accept()
-        print(f'Client {client_host}:{client_port} was connected')
+        logger.info(f'Client {client_host}:{client_port} was connected')
 
         bytes_request = client.recv(buffersize)
         request = json.loads(bytes_request)
@@ -62,15 +79,18 @@ try:
             if controller:
                 try:
                     response = make_200(request, request.get('data'))
-                    print(f'Request: {bytes_request.decode()}')
+                    logger.debug(f'Request: {bytes_request.decode()}')
                 except Exception as er:
                     response = make_500(request)
-                    print(er)
+                    logger.critical(er)
+            else:
+                response = make_404(request, request.get('data'))
+                logger.error(f'Wrong request: {request}')
         else:
             response = make_404(request, request.get('data'))
-            print(f'Wrong request: {request}')
+            logger.error(f'Wrong request: {request}')
         string_response = json.dumps(response)
         client.send(string_response.encode())
         client.close()
 except KeyboardInterrupt:
-    print('Server shotdown')
+    logger.info('Server shotdown')
