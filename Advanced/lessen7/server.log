@@ -1,0 +1,240 @@
+2019-09-24 20:32:43,135 - INFO - Server started with localhost:3000
+2019-09-24 20:32:46,935 - INFO - Client 127.0.0.1:43644 was connected
+2019-09-24 20:32:51,527 - ERROR - Wrong token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U1 not found
+2019-09-24 20:33:26,310 - INFO - Server started with localhost:3000
+2019-09-24 20:33:33,989 - INFO - Client 127.0.0.1:43672 was connected
+2019-09-24 21:34:33,996 - INFO - Server shotdown
+2019-09-24 21:34:34,875 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-24 21:34:34,877 - INFO - Server started with localhost:8008
+2019-09-24 21:34:50,692 - INFO - Client 127.0.0.1:59346 was connected
+2019-09-26 22:56:26,781 - INFO - Server started with localhost:8008
+2019-09-26 23:20:48,412 - INFO - Server started with localhost:8008
+2019-09-26 23:21:28,284 - INFO - Server started with localhost:8008
+2019-09-26 23:22:06,521 - INFO - Server started with localhost:8008
+2019-09-26 23:22:37,274 - INFO - Server started with localhost:8008
+2019-09-26 23:23:13,840 - INFO - Server started with localhost:8008
+2019-09-26 23:24:36,661 - INFO - Server started with localhost:8008
+2019-09-26 23:25:50,676 - INFO - Server started with localhost:8008
+2019-09-26 23:27:36,460 - INFO - Server started with localhost:8008
+2019-09-26 23:42:50,513 - INFO - Server started with localhost:8008
+2019-09-26 23:45:34,525 - INFO - Client 127.0.0.1:39228 was connected
+2019-09-26 23:49:58,526 - INFO - Client 127.0.0.1:39304 was connected
+2019-09-26 23:53:19,876 - INFO - Server started with localhost:8008
+2019-09-26 23:53:23,040 - INFO - Client 127.0.0.1:39360 was connected
+2019-09-27 00:26:43,625 - INFO - Client 127.0.0.1:40202 was connected
+2019-09-27 00:34:42,017 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:34:42,019 - INFO - Server started with localhost:3000
+2019-09-27 00:34:49,118 - INFO - Client 127.0.0.1:54394 was connected
+2019-09-27 00:34:59,290 - INFO - Client 127.0.0.1:54398 was connected
+2019-09-27 00:36:19,436 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:36:22,299 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:36:24,272 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:36:25,081 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:36:25,913 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:36:39,848 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:37:03,981 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:37:24,882 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:37:24,884 - INFO - Server started with localhost:3000
+2019-09-27 00:37:28,722 - INFO - Client 127.0.0.1:54436 was connected
+2019-09-27 00:37:32,194 - INFO - Client 127.0.0.1:54438 was connected
+2019-09-27 00:38:24,653 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:38:25,887 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:38:26,804 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:38:40,764 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:38:41,815 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:38:42,832 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:38:44,265 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:38:45,120 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:38:45,862 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:38:57,363 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:39:11,516 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:39:12,633 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:39:13,483 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:39:14,408 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:40:16,108 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 00:40:16,109 - INFO - Server started with localhost:8008
+2019-09-27 00:40:25,508 - INFO - Client 127.0.0.1:40426 was connected
+2019-09-27 00:43:16,676 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 00:43:16,677 - INFO - Server started with localhost:3000
+2019-09-27 00:43:21,867 - INFO - Client 127.0.0.1:54534 was connected
+2019-09-27 00:43:34,124 - INFO - Client 127.0.0.1:54540 was connected
+2019-09-27 14:43:06,192 - INFO - Server started with localhost:3000
+2019-09-27 14:43:53,531 - INFO - Client 127.0.0.1:55906 was connected
+2019-09-27 14:44:47,478 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 14:44:47,481 - INFO - Server started with localhost:8008
+2019-09-27 14:44:52,134 - INFO - Client 127.0.0.1:37964 was connected
+2019-09-27 14:48:13,777 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 14:48:13,779 - INFO - Server started with localhost:3000
+2019-09-27 14:48:19,456 - INFO - Client 127.0.0.1:58286 was connected
+2019-09-27 14:48:39,138 - INFO - Client 127.0.0.1:58468 was connected
+2019-09-27 14:55:29,044 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 14:56:00,135 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 14:56:01,076 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 14:56:01,864 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 14:57:06,760 - INFO - Server started with localhost:3000
+2019-09-27 14:57:23,086 - INFO - Client 127.0.0.1:34764 was connected
+2019-09-27 14:58:27,323 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 14:58:27,325 - INFO - Server started with localhost:8008
+2019-09-27 14:58:31,695 - INFO - Client 127.0.0.1:45100 was connected
+2019-09-27 14:58:37,719 - INFO - Client 127.0.0.1:45150 was connected
+2019-09-27 14:59:46,921 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569581917.715636}
+2019-09-27 14:59:48,609 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 14:59:48,611 - INFO - Server started with localhost:3000
+2019-09-27 14:59:53,139 - INFO - Client 127.0.0.1:36044 was connected
+2019-09-27 15:01:07,172 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569581993.134301}
+2019-09-27 15:01:08,829 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 15:01:08,830 - INFO - Server started with localhost:8008
+2019-09-27 15:01:12,736 - INFO - Client 127.0.0.1:46484 was connected
+2019-09-27 15:01:43,637 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569582072.734448}
+2019-09-27 15:01:44,367 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 15:02:05,191 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 15:02:34,219 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 15:02:34,221 - INFO - Server started with localhost:3000
+2019-09-27 15:03:00,545 - INFO - Client 127.0.0.1:37672 was connected
+2019-09-27 15:05:01,156 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569582180.543032}
+2019-09-27 15:05:03,396 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 15:05:03,398 - INFO - Server started with localhost:8008
+2019-09-27 15:05:07,422 - INFO - Client 127.0.0.1:48518 was connected
+2019-09-27 15:06:23,881 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569582307.419882}
+2019-09-27 15:06:24,872 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 15:06:24,874 - INFO - Server started with localhost:3000
+2019-09-27 15:06:31,052 - INFO - Client 127.0.0.1:39508 was connected
+2019-09-27 15:06:52,966 - INFO - Client 127.0.0.1:39700 was connected
+2019-09-27 15:06:52,966 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569582391.050211}
+2019-09-27 15:10:15,452 - INFO - Server started with localhost:3000
+2019-09-27 15:10:20,426 - INFO - Client 127.0.0.1:41490 was connected
+2019-09-27 15:11:19,006 - INFO - Client 127.0.0.1:42006 was connected
+2019-09-27 15:12:21,138 - INFO - Server started with localhost:3000
+2019-09-27 15:12:25,663 - INFO - Client 127.0.0.1:42614 was connected
+2019-09-27 15:13:40,345 - INFO - Client 127.0.0.1:43252 was connected
+2019-09-27 15:13:45,261 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 15:13:45,263 - INFO - Server started with localhost:8008
+2019-09-27 15:13:48,354 - INFO - Client 127.0.0.1:53074 was connected
+2019-09-27 15:13:53,322 - INFO - Client 127.0.0.1:53120 was connected
+2019-09-27 15:15:37,587 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569582833.320394}
+2019-09-27 15:15:38,821 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 15:15:38,823 - INFO - Server started with localhost:3000
+2019-09-27 15:16:00,804 - INFO - Server shotdown
+2019-09-27 15:17:05,152 - INFO - Server started with localhost:3000
+2019-09-27 15:17:10,819 - INFO - Client 127.0.0.1:45068 was connected
+2019-09-27 15:17:19,406 - INFO - Client 127.0.0.1:45142 was connected
+2019-09-27 15:17:28,847 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569583039.40207}
+2019-09-27 15:18:55,987 - INFO - Server started with localhost:3000
+2019-09-27 15:19:00,306 - INFO - Client 127.0.0.1:45996 was connected
+2019-09-27 15:19:05,537 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569583140.303665}
+2019-09-27 15:19:41,872 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 15:19:41,873 - INFO - Server started with localhost:8008
+2019-09-27 15:19:46,355 - INFO - Client 127.0.0.1:56146 was connected
+2019-09-27 15:19:56,652 - INFO - Client 127.0.0.1:56232 was connected
+2019-09-27 15:20:06,619 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569583196.650254}
+2019-09-27 15:22:36,544 - INFO - Server started with localhost:8008
+2019-09-27 15:22:44,378 - INFO - Client 127.0.0.1:57774 was connected
+2019-09-27 15:23:06,268 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569583364.376507}
+2019-09-27 15:24:16,437 - INFO - Server started with localhost:8008
+2019-09-27 15:24:21,781 - INFO - Client 127.0.0.1:58638 was connected
+2019-09-27 15:24:39,173 - INFO - Client 127.0.0.1:58792 was connected
+2019-09-27 15:24:43,855 - INFO - Server shotdown
+2019-09-27 15:27:45,287 - INFO - Server started with localhost:8008
+2019-09-27 15:27:50,316 - INFO - Client 127.0.0.1:60450 was connected
+2019-09-27 15:27:54,628 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569583670.31275}
+2019-09-27 15:34:19,920 - INFO - Server started with localhost:8008
+2019-09-27 15:34:24,553 - INFO - Client 127.0.0.1:35662 was connected
+2019-09-27 15:34:28,723 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569584064.549705}
+2019-09-27 15:34:42,294 - INFO - Client 127.0.0.1:35814 was connected
+2019-09-27 15:34:50,572 - DEBUG - Request: {"action": "echo", "data": "test2", "time": 1569584064.549705}
+2019-09-27 15:37:08,312 - ERROR - Action with name test not found
+2019-09-27 15:51:35,644 - INFO - Server shotdown
+2019-09-27 15:51:42,124 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 15:51:42,126 - INFO - Server started with localhost:3000
+2019-09-27 15:51:45,847 - INFO - Client 127.0.0.1:34946 was connected
+2019-09-27 15:51:49,331 - INFO - Client 127.0.0.1:34982 was connected
+2019-09-27 15:51:54,833 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569585109.328097}
+2019-09-27 15:57:58,067 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569585109.328097}
+2019-09-27 16:11:11,398 - INFO - Server shotdown
+2019-09-27 16:11:12,941 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 16:11:12,944 - INFO - Server started with localhost:8008
+2019-09-27 16:11:22,819 - INFO - Client 127.0.0.1:54832 was connected
+2019-09-27 16:11:28,074 - INFO - Client 127.0.0.1:54876 was connected
+2019-09-27 16:11:35,928 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569586288.068502}
+2019-09-27 16:11:39,915 - INFO - Server shotdown
+2019-09-27 16:17:12,862 - INFO - Server started with localhost:8008
+2019-09-27 16:17:18,125 - INFO - Client 127.0.0.1:57880 was connected
+2019-09-27 16:20:03,020 - INFO - Server started with localhost:8008
+2019-09-27 16:20:06,315 - INFO - Client 127.0.0.1:59380 was connected
+2019-09-27 16:25:03,205 - INFO - Server started with localhost:8008
+2019-09-27 16:25:33,258 - INFO - Client 127.0.0.1:33964 was connected
+2019-09-27 16:25:37,453 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569587133.256291}
+2019-09-27 16:27:33,191 - INFO - Server shotdown
+2019-09-27 16:27:34,156 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 16:27:34,157 - INFO - Server started with localhost:3000
+2019-09-27 16:27:41,963 - INFO - Client 127.0.0.1:53558 was connected
+2019-09-27 16:27:47,154 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569587261.96086}
+2019-09-27 16:29:42,488 - INFO - Client 127.0.0.1:54618 was connected
+2019-09-27 16:29:48,459 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569587261.96086}
+2019-09-27 16:45:48,490 - DEBUG - Request: {"action": "echo", "data": "time", "time": 1569587261.96086}
+2019-09-27 16:46:40,361 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 16:47:09,258 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 16:47:09,259 - INFO - Server started with localhost:3000
+2019-09-27 16:47:14,619 - INFO - Client 127.0.0.1:35550 was connected
+2019-09-27 16:47:19,892 - DEBUG - request: {'action': 'echo', 'data': 'test', 'time': 1569588434.617131} - response: {'action': 'echo', 'time': 1569588429.255544, 'code': 200, 'data': 'test'}
+2019-09-27 16:47:19,893 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569588434.617131}
+2019-09-27 16:49:13,231 - INFO - Server shotdown
+2019-09-27 16:49:14,481 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 16:49:14,482 - INFO - Server started with localhost:8008
+2019-09-27 16:49:19,212 - INFO - Client 127.0.0.1:46386 was connected
+2019-09-27 16:49:24,585 - DEBUG - request: {'action': 'echo', 'data': 'name', 'time': 1569588559.208554} - response: {'action': 'echo', 'time': 1569588554.478157, 'code': 200, 'data': 'name'}
+2019-09-27 16:49:24,585 - DEBUG - Request: {"action": "echo", "data": "name", "time": 1569588559.208554}
+2019-09-27 16:50:18,351 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 16:50:18,353 - INFO - Server started with localhost:3000
+2019-09-27 16:50:22,962 - INFO - Client 127.0.0.1:37208 was connected
+2019-09-27 16:50:27,306 - DEBUG - request: {'action': 'echo', 'data': 'test', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U', 'time': 1569588622.959715} - response: {'action': 'echo', 'time': 1569588618.347689, 'code': 200, 'data': 'test'}
+2019-09-27 16:50:27,306 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569588622.959715}
+2019-09-27 16:55:14,348 - INFO - Server started with localhost:3000
+2019-09-27 16:55:18,428 - INFO - Client 127.0.0.1:39822 was connected
+2019-09-27 16:55:22,917 - DEBUG - request: {'action': 'echo', 'data': 'name', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U', 'time': 1569588918.425667} - response: {'action': 'echo', 'time': 1569588914.344725, 'code': 200, 'data': 'name'}
+2019-09-27 16:55:22,917 - DEBUG - Request: {"action": "echo", "data": "name", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569588918.425667}
+2019-09-27 17:02:36,980 - INFO - Server started with localhost:3000
+2019-09-27 17:02:42,950 - INFO - Client 127.0.0.1:43666 was connected
+2019-09-27 17:02:47,922 - INFO - Client 127.0.0.1:43712 was connected
+2019-09-27 17:02:53,701 - DEBUG - request: {'action': 'echo', 'data': 'test', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U', 'time': 1569589367.919482} - response: {'action': 'echo', 'time': 1569589356.977879, 'code': 200, 'data': 'test'}
+2019-09-27 17:02:53,701 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569589367.919482}
+2019-09-27 17:09:22,457 - INFO - Server started with localhost:3000
+2019-09-27 17:09:26,704 - INFO - Client 127.0.0.1:47218 was connected
+2019-09-27 17:09:32,040 - DEBUG - request: {'action': 'echo', 'data': 'test', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U', 'time': 1569589766.700391} - response: {'action': 'echo', 'time': 1569589762.454705, 'code': 200, 'data': 'test'}
+2019-09-27 17:09:32,040 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569589766.700391}
+2019-09-27 17:11:29,484 - INFO - Server started with localhost:3000
+2019-09-27 17:11:33,685 - INFO - Client 127.0.0.1:48316 was connected
+2019-09-27 17:16:12,230 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 17:16:12,232 - INFO - Server started with localhost:8008
+2019-09-27 17:16:16,350 - INFO - Client 127.0.0.1:60502 was connected
+2019-09-27 17:16:20,819 - DEBUG - request: {'action': 'echo', 'data': 'test', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U', 'time': 1569590176.348103} - response: {'action': 'echo', 'time': 1569590172.226592, 'code': 200, 'data': 'test'}
+2019-09-27 17:16:20,819 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569590176.348103}
+2019-09-27 17:17:13,788 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 17:17:13,789 - INFO - Server started with localhost:3000
+2019-09-27 17:17:22,663 - INFO - Client 127.0.0.1:51344 was connected
+2019-09-27 17:17:26,401 - DEBUG - request: {'action': 'echo', 'data': 'test', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U', 'time': 1569590242.66057} - response: {'action': 'echo', 'time': 1569590233.785264, 'code': 200, 'data': 'test'}
+2019-09-27 17:17:26,401 - DEBUG - Request: {"action": "echo", "data": "test", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U", "time": 1569590242.66057}
+2019-09-27 17:18:15,868 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 17:18:15,870 - INFO - Server started with localhost:8008
+2019-09-27 17:18:20,364 - INFO - Client 127.0.0.1:33384 was connected
+2019-09-27 17:18:26,128 - DEBUG - request: {'action': 'echo', 'data': 'test', 'time': 1569590300.361912} - response: {'action': 'echo', 'time': 1569590295.865741, 'code': 200, 'data': 'test'}
+2019-09-27 17:18:26,128 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569590300.361912}
+2019-09-27 17:19:31,177 - INFO - Server started with localhost:8008
+2019-09-27 17:19:34,995 - INFO - Client 127.0.0.1:34034 was connected
+2019-09-27 17:19:41,307 - DEBUG - request: {'action': 'echo', 'data': 'test', 'time': 1569590374.991676} - response: {'action': 'echo', 'time': 1569590371.174823, 'code': 200, 'data': 'test'}
+2019-09-27 17:19:41,307 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569590374.991676}
+2019-09-27 17:20:12,312 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 17:20:12,314 - INFO - Server started with localhost:3000
+2019-09-27 17:20:18,836 - INFO - Client 127.0.0.1:52900 was connected
+2019-09-27 17:20:22,665 - DEBUG - request: {'action': 'echo', 'data': 'test', 'time': 1569590418.832275} - response: {'action': 'echo', 'time': 1569590412.309797, 'code': 200, 'data': 'test'}
+2019-09-27 17:20:22,665 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569590418.832275}
+2019-09-27 17:21:04,524 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 17:21:07,041 - DEBUG - Текущий порт занят, выбран порт 3000
+2019-09-27 17:21:20,286 - DEBUG - Текущий порт занят, выбран порт 8008
+2019-09-27 17:21:20,288 - INFO - Server started with localhost:8008
+2019-09-27 17:21:25,424 - INFO - Client 127.0.0.1:34994 was connected
+2019-09-27 17:21:29,693 - DEBUG - request: {'action': 'echo', 'data': 'test', 'time': 1569590485.422675} - response: {'action': 'echo', 'time': 1569590480.283521, 'code': 200, 'data': 'test'}
+2019-09-27 17:21:29,693 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569590485.422675}
+2019-09-27 17:32:49,828 - INFO - Client 127.0.0.1:40914 was connected
+2019-09-27 17:32:56,305 - DEBUG - request: {'action': 'echo', 'data': 'test', 'time': 1569590485.422675} - response: {'action': 'echo', 'time': 1569590480.283521, 'code': 200, 'data': 'test'}
+2019-09-27 17:32:56,305 - DEBUG - Request: {"action": "echo", "data": "test", "time": 1569590485.422675}
